@@ -1,0 +1,183 @@
+<div class="flex flex-col sm:flex-row items-center md:items-start sm:justify-center md:justify-start flex-auto min-w-0">
+    <div
+        class="md:flex md:justify-center w-full sm:w-auto md:h-full md:w-1/2 py-2 px-4 sm:p-12 md:p-16 sm:rounded-2xl md:rounded-none sm:shadow md:shadow-none sm:bg-card">
+        <div class="w-full max-w-80 mx-auto sm:mx-0">
+            <!-- Logo -->
+            <div class=" border justify-center" class="rounded-full">
+                <img src="assets/images/profile/adriano_rabello_photo.jpg" class="rounded-full h-80 shadow-lg">
+            </div>
+
+            <!-- Title -->
+            <div class="text-4xl font-extrabold tracking-tight leading-tight pt-4 text-center shadow-2x">Adriano Rabello</div>
+            <div class="flex justify-center mt-0.5 font-medium ">
+                <div class="text-center shadow-2x">Java / Angular Software Enginner</div>
+            </div>
+
+            <!-- Alert -->
+            <fuse-alert class="mt-8 -mb-4" *ngIf="showAlert" [appearance]="'outline'" [showIcon]="false"
+                [type]="alert.type" [@shake]="alert.type === 'error'">
+                {{alert.message}}
+            </fuse-alert>
+
+
+
+
+            <!-- Separator -->
+            <div class="flex items-center mt-8">
+                <div class="flex-auto mt-px border-t shadow-2xl"></div>
+                <div class="mx-2 text-secondary">My Profile in</div>
+                <div class="flex-auto mt-px border-t shadow-2xl"></div>
+            </div>
+
+            <!-- Single sign-on buttons -->
+            <div class="flex items-center mt-8 space-x-4">
+                <a class="flex-auto"  mat-stroked-button
+                    href="https://www.linkedin.com/in/adriano-rabello-4151a0106/" target="_blank">
+                    <mat-icon class="icon-size-5" [svgIcon]="'feather:linkedin'"></mat-icon>
+                </a>
+
+                <a class="flex-auto"  mat-stroked-button
+                    href="https://github.com/AdrianoRabello/">
+                    <mat-icon class="icon-size-5" [svgIcon]="'feather:github'" target="_blank"></mat-icon>
+                </a>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+    <div
+        class="relative hidden md:flex flex-auto justify-center w-1/2 h-full p-10 lg:px-28 overflow-hidden bg-gray-800 dark:border-l">
+        <!-- Background - @formatter:off -->
+        <!-- Rings -->
+        <svg class="absolute inset-0 pointer-events-none" viewBox="0 0 960 540" width="100%" height="100%"
+            preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg">
+            <g class="text-gray-700 opacity-25" fill="none" stroke="currentColor" stroke-width="100">
+                <circle r="234" cx="196" cy="23"></circle>
+                <circle r="234" cx="790" cy="491"></circle>
+            </g>
+        </svg>
+        <!-- Dots -->
+        <svg class="absolute -top-16 -right-16 text-gray-700" viewBox="0 0 220 192" width="220" height="192"
+            fill="none">
+            <defs>
+                <pattern id="837c3e70-6c3a-44e6-8854-cc48c737b659" x="0" y="0" width="20" height="20"
+                    patternUnits="userSpaceOnUse">
+                    <rect x="0" y="0" width="4" height="4" fill="currentColor"></rect>
+                </pattern>
+            </defs>
+            <rect width="220" height="192" fill="url(#837c3e70-6c3a-44e6-8854-cc48c737b659)"></rect>
+        </svg>
+        <!-- @formatter:on -->
+        <!-- Content -->
+        <div class="z-10 relative w-full">
+            <div class="text-7xl font-bold leading-none text-gray-100">
+                <div class="">My experiences</div>
+            </div>
+
+            <div class="mt-6 text-lg tracking-tight leading-6 text-gray-400">
+
+                <div class=" text-gray-50">
+                    <div>
+                        <div class="font-extrabold  mt-2 pl-2">Java / Angular  Mid Senior Software Enginner </div>
+                        <div class="flex items-center mt-2">
+                            <div class="px-2">
+                                <div>
+                                    <p class="font-extrabold ">Inovaçãogov</p>
+                                    <p>MAY 2021 - currently</p>
+                                </div>
+                                <div class="pt-1">
+                                    <div>Technologies:</div>
+                                    <div>Java (8, 11), Spring MVC, Spring Boot, Junit, Mockito, API integration, Angular2,
+                                        SCRUM, Jhipster, Tailwind css, AWS.
+                                    </div>
+                                </div>
+                                <div class="">
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="mt-1">
+                        <a href="https://inovacaogov.com.br/" type="button" mat-stroked-button target="_blank">Company
+                            page</a>
+                    </div>
+                </div>
+
+                <div class="mt-6">
+                    <div>
+                        <div class="font-medium  mt-2 pl-2">Java / Angular Mid Senior Software Enginner </div>
+                        <div class="flex items-center mt-2">
+                            <div class="px-2">
+                                <div>
+                                    <p class="font-bold">Spasso Tecnologia</p>
+                                    <p>FEB 2021 - ABR 2021</p>
+                                </div>
+                                <div class="pt-1">
+                                    <div class="font-bold">Tecnologies:</div>
+                                    <div>
+                                        Java (8, 11), Junit, Mockito, Rest API's, Rest API's documentation,
+                                        Angular2, PrimeNG, SCRUM, Jira, Git.
+                                    </div>
+                                </div>
+                                <div class="pt-1">
+                                    <div class=" font-bold ">Activities:</div>
+                                    I worked on projects for the Espírito Santo State Bank (BANESTES).
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="mt-1">
+                        <a href="https://www.spassu.com.br/" type="button" mat-stroked-button target="_blank">Company page</a>
+                    </div>
+                </div>
+
+                <div class="mt-6">
+                    <div>
+                        <div class="font-medium  mt-2 pl-2">Java Software Enginner </div>
+                        <div class="items-center mt-2">
+                            <div class="px-2">
+                                <div>
+                                    <p class="font-bold">Corpo de Bombeiros Militar ES</p>
+                                    <p>JAN 2017 - FEB 2021</p>
+                                </div>
+                                <div class="pt-1">
+                                    <div class="font-bold">Tecnologies:</div>
+                                    <div>
+                                        Java (8, 11), Spring MVC, Spring Boot, API's, Spring Security,
+                                        Angular2, Git, Javascript, Jquery, HTML, CSS, Bootstrap, Angular Material,
+                                         Hibernate, SQL, MySQL, OracleDB, Docker.
+                                    </div>
+
+                                </div>
+                                <div class="pt-1">
+                                    <div class=" font-bold ">Activities:</div>
+                                    <div>
+                                        I worked on the main projects of the corporation: Budget
+                                        Management System, Online Human Resources System, I was project leader in the Water
+                                        Rescue System.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="mt-1">
+                        <a href="https://cb.es.gov.br/" type="button" mat-stroked-button target="_blank">Company
+                            page</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+</div>
