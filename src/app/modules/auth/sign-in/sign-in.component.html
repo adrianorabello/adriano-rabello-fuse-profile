@@ -1,16 +1,17 @@
 <div class="flex flex-col sm:flex-row items-center md:items-start sm:justify-center md:justify-start flex-auto min-w-0">
     <div
         class="md:flex md:justify-center w-full sm:w-auto md:h-full md:w-1/2 py-2 px-4 sm:p-12 md:p-16 sm:rounded-2xl md:rounded-none sm:shadow md:shadow-none sm:bg-card">
-        <div class="w-full max-w-80 mx-auto sm:mx-0">
+        <div class="w-full max-w-80 mx-auto sm:mx-0 fixed mt-18">
             <!-- Logo -->
-            <div class=" border justify-center" class="rounded-full">
-                <img src="assets/images/profile/adriano_rabello_photo.jpg" class="rounded-full h-80 shadow-lg">
+            <div class=" border justify-center" class="r">
+                <img src="assets/images/profile/em-pe-serio.jpg" class="rounded-full h-80 shadow-lg">
             </div>
 
             <!-- Title -->
-            <div class="text-4xl font-extrabold tracking-tight leading-tight pt-4 text-center shadow-2x">Adriano Rabello</div>
+            <div class="text-4xl font-extrabold tracking-tight leading-tight pt-4 text-center shadow-2x">Adriano Rabello
+            </div>
             <div class="flex justify-center mt-0.5 font-medium ">
-                <div class="text-center shadow-2x">Java / Angular Software Enginner</div>
+                <div class="text-center shadow-2x">Full Stack Software Engineer</div>
             </div>
 
             <!-- Alert -->
@@ -25,19 +26,18 @@
             <!-- Separator -->
             <div class="flex items-center mt-8">
                 <div class="flex-auto mt-px border-t shadow-2xl"></div>
-                <div class="mx-2 text-secondary">My Profile in</div>
+                <div class="mx-2 text-secondary">Profile</div>
                 <div class="flex-auto mt-px border-t shadow-2xl"></div>
             </div>
 
             <!-- Single sign-on buttons -->
             <div class="flex items-center mt-8 space-x-4">
-                <a class="flex-auto"  mat-stroked-button
-                    href="https://www.linkedin.com/in/adriano-rabello-4151a0106/" target="_blank">
+                <a class="flex-auto" mat-stroked-button href="https://www.linkedin.com/in/adriano-rabello-4151a0106/"
+                    target="_blank">
                     <mat-icon class="icon-size-5" [svgIcon]="'feather:linkedin'"></mat-icon>
                 </a>
 
-                <a class="flex-auto"  mat-stroked-button
-                    href="https://github.com/AdrianoRabello/">
+                <a class="flex-auto" mat-stroked-button href="https://github.com/AdrianoRabello/">
                     <mat-icon class="icon-size-5" [svgIcon]="'feather:github'" target="_blank"></mat-icon>
                 </a>
             </div>
@@ -73,25 +73,73 @@
         <!-- @formatter:on -->
         <!-- Content -->
         <div class="z-10 relative w-full">
-            <div class="text-7xl font-bold leading-none text-gray-100">
-                <div class="">My experiences</div>
+            <div class="text-5xl font-bold leading-none text-gray-100">
+                <div class="tracking-widest">Experiences</div>
             </div>
 
-            <div class="mt-6 text-lg tracking-tight leading-6 text-gray-400">
+            <div class="mt-6 text-lg tracking-tight leading-2 text-gray-400">
 
                 <div class=" text-gray-50">
                     <div>
-                        <div class="font-extrabold  mt-2 pl-2">Java / Angular  Mid Senior Software Enginner </div>
+                        <div class=" flex  justify-between mt-5">
+                            <div class=" font-bold  mt-2 pl-2 tracking-wider">
+
+                                <p>
+                                    Full Stack Software Engineer
+                                </p>
+
+                            </div>
+
+                            <div class=" pt-2 border-whit-1">
+                                <p class="font-extrabold tracking-wider">Capgemini</p>
+                                <p> Jun 2022 - Present</p>
+
+                                <div class="mt-1">
+                                    <a href="https://www.capgemini.com/about-us/" type="button" mat-stroked-button
+                                        target="_blank">Capgemini
+                                        page</a>
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="flex items-center mt-2">
                             <div class="px-2">
-                                <div>
-                                    <p class="font-extrabold ">Inovaçãogov</p>
-                                    <p>MAY 2021 - currently</p>
-                                </div>
+
+
                                 <div class="pt-1">
+                                    <div class=" font-bold tracking-wider">Activities:</div>
+                                    <ul class="list-disc">
+                                        <li> I have been working on financial sector projects for over two years,
+                                            leading the software development team in creating and implementing
+                                            customized solutions. </li>
+                                        <li> I actively participate in the design and definition of system architecture,
+                                            utilizing microservices in cloud environments and applying best development
+                                            practices.
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="mt-4">
                                     <div>Technologies:</div>
-                                    <div>Java (8, 11), Spring MVC, Spring Boot, Junit, Mockito, API integration, Angular2,
-                                        SCRUM, Jhipster, Tailwind css, AWS.
+                                    <div>
+
+                                        <ul class="list-disc">
+                                            <li>Java (11, 17)</li>
+                                            <li>Spring Boot</li>
+                                            <li>Angular 2</li>
+                                            <li>API integration</li>
+                                            <li>API Documentation</li>
+                                            <li>Git</li>
+                                            <li>Confluence</li>
+                                            <li>Jira</li>
+                                            <li>Docker</li>
+                                            <li>Azure</li>
+                                            <li>Bamboo</li>
+                                            <li>SonarQube</li>
+                                            <li>AWS</li>
+                                            <li>SQL</li>
+                                            <li>NO SQL</li>
+                                        </ul>
                                     </div>
                                 </div>
                                 <div class="">
@@ -101,74 +149,143 @@
 
                         </div>
                     </div>
-                    <div class="mt-1">
-                        <a href="https://inovacaogov.com.br/" type="button" mat-stroked-button target="_blank">Company
-                            page</a>
+
+                </div>
+
+
+
+                <div class=" mt-5">
+                    <div>
+
+                        <div class=" flex font-medium  justify-between mt-5">
+                            <div class=" mt-2 pl-2 tracking-wider">
+
+                                <p>
+                                    Java / Angular Software Engineer
+                                </p>
+
+                            </div>
+
+                            <div class=" pt-2 border-whit-1">
+                                <p class="tracking-wider">Inovaçãogov</p>
+                                <p> May 2021 - May 2022</p>
+
+                                <div class="mt-1">
+                                    <a href="https://inovacaogov.com.br/" type="button" mat-stroked-button
+                                        target="_blank">Inovaçãogov</a>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
+
+                    <div class="flex items-center mt-2">
+                        <div class="px-2">
+
+
+                            <div class="pt-1">
+                                <div class=" font-bold tracking-wider">Activities:</div>
+                                <div>
+                                    <ul class="list-disc">
+                                        <li>Active participation in the creation and maintenance of various software
+                                            projects, from conception to delivery.</li>
+                                        <li>Collaboration with stakeholders to understand requirements and translate
+                                            client needs into technical specifications.</li>
+                                        <li>Experience in maintaining existing systems, performing continuous
+                                            improvements and bug fixes.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <div>Technologies:</div>
+                                <div>
+
+                                    <ul class="list-disc">
+                                        <li>Java (8)</li>
+                                        <li>Java JSP</li>
+                                        <li>Spring Framework</li>
+                                        <li>Angular 2</li>
+                                        <li>API Documentation</li>
+                                        <li>Git</li>
+                                        <li>Jira</li>
+                                        <li>AWS</li>
+                                        <li>MySql</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
 
                 <div class="mt-6">
                     <div>
-                        <div class="font-medium  mt-2 pl-2">Java / Angular Mid Senior Software Enginner </div>
-                        <div class="flex items-center mt-2">
-                            <div class="px-2">
-                                <div>
-                                    <p class="font-bold">Spasso Tecnologia</p>
-                                    <p>FEB 2021 - ABR 2021</p>
+
+                        <div>
+
+                            <div class=" flex font-medium  justify-between mt-5">
+                                <div class=" mt-2 pl-2 tracking-wider">
+
+                                    <p>
+                                        Software Engineer
+                                    </p>
+
                                 </div>
-                                <div class="pt-1">
-                                    <div class="font-bold">Tecnologies:</div>
-                                    <div>
-                                        Java (8, 11), Junit, Mockito, Rest API's, Rest API's documentation,
-                                        Angular2, PrimeNG, SCRUM, Jira, Git.
+
+                                <div class=" pt-2 border-whit-1">
+                                    <p class="tracking-wider">Military Fire Department</p>
+                                    <p> JAN 2017 - FEB 2021</p>
+
+                                    <div class="mt-1">
+                                        <a href="https://cb.es.gov.br/" type="button" mat-stroked-button
+                                            target="_blank">Military Fire Department</a>
                                     </div>
-                                </div>
-                                <div class="pt-1">
-                                    <div class=" font-bold ">Activities:</div>
-                                    I worked on projects for the Espírito Santo State Bank (BANESTES).
                                 </div>
                             </div>
 
                         </div>
-                    </div>
-                    <div class="mt-1">
-                        <a href="https://www.spassu.com.br/" type="button" mat-stroked-button target="_blank">Company page</a>
-                    </div>
-                </div>
 
-                <div class="mt-6">
-                    <div>
-                        <div class="font-medium  mt-2 pl-2">Java Software Enginner </div>
                         <div class="items-center mt-2">
                             <div class="px-2">
                                 <div>
-                                    <p class="font-bold">Corpo de Bombeiros Militar ES</p>
-                                    <p>JAN 2017 - FEB 2021</p>
-                                </div>
-                                <div class="pt-1">
-                                    <div class="font-bold">Tecnologies:</div>
-                                    <div>
-                                        Java (8, 11), Spring MVC, Spring Boot, API's, Spring Security,
-                                        Angular2, Git, Javascript, Jquery, HTML, CSS, Bootstrap, Angular Material,
-                                         Hibernate, SQL, MySQL, OracleDB, Docker.
-                                    </div>
-
+                                    <p class="font-bold"></p>
+                                    <p></p>
                                 </div>
                                 <div class="pt-1">
                                     <div class=" font-bold ">Activities:</div>
                                     <div>
-                                        I worked on the main projects of the corporation: Budget
-                                        Management System, Online Human Resources System, I was project leader in the Water
-                                        Rescue System.
+                                        <ul class="list-disc">
+                                            <li>Participation in the creation and maintenance of the corporation's key projects, such as the Personnel Management System, Budget Management System, and others.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="mt-4">
+                                    <div>Technologies:</div>
+                                    <div>
+
+                                        <ul class="list-disc">
+                                            <li>Java (8)</li>
+                                            <li>Spring Boot</li>
+                                            <li>Angular 2</li>
+                                            <li>API</li>
+                                            <li>Git</li>
+                                            <li>Docker</li>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                            <li>JQuery</li>
+                                            <li>Oracle DB</li>
+                                            <li>MySql</li>
+
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
 
                         </div>
-                    </div>
-                    <div class="mt-1">
-                        <a href="https://cb.es.gov.br/" type="button" mat-stroked-button target="_blank">Company
-                            page</a>
                     </div>
                 </div>
 
